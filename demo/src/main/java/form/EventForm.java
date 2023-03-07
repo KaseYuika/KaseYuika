@@ -1,4 +1,4 @@
-package com.example.demo;
+package form;
 
 import lombok.Data;
 

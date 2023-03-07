@@ -1,6 +1,8 @@
-package com.example.demo;
+package repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
+
+import entity.Participant;
 
 /**
  * participantテーブルを操作するためのRepositoryクラスです
