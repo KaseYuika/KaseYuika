@@ -1,0 +1,14 @@
+package com.example.demo;
+
+import java.util.List;
+
+import io.micrometer.observation.Observation.Event;
+
+public class EventRepository extends JpaRepository<Event, Integer> {
+	/**
+	 * 指定したイベントIDからイベントの情報を検索します.
+	 * @param eventId イベントID
+	 * @return	イベント一覧
+	 */
+	public List<Event> findByEventId(Integer eventId);
+}
